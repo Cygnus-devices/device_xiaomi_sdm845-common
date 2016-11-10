@@ -45,7 +45,6 @@ BOARD_KERNEL_CMDLINE += msm_rtb.filter=0x237 service_locator.enable=1 swiotlb=20
 BOARD_KERNEL_CMDLINE += loop.max_part=16 androidboot.configfs=true
 BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
 BOARD_KERNEL_PAGESIZE := 4096
-TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_CLANG_COMPILE := true
 TARGET_KERNEL_CLANG_VERSION := 12
 KERNEL_SUPPORTS_LLVM_TOOLS := true
