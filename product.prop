@@ -127,3 +127,6 @@ ro.surface_flinger.wcg_composition_dataspace=143261696
 
 # Zygote
 persist.device_config.runtime_native.usap_pool_enabled=true
+
+# fastbootd
+ro.fastbootd.available=true
