@@ -231,11 +231,11 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
         </interface>
     </hal>
     <hal format="hidl">
-        <name>android.hardware.vibrator</name>
+        <name>android.hardware.vr</name>
         <transport>hwbinder</transport>
         <version>1.0</version>
         <interface>
-            <name>IVibrator</name>
+            <name>IVr</name>
             <instance>default</instance>
         </interface>
     </hal>
