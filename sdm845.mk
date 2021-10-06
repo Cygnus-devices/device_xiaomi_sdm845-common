@@ -140,8 +140,8 @@ PRODUCT_PACKAGES += \
     libbthost_if \
     vendor.qti.hardware.bluetooth_audio@2.0.vendor
 
-include vendor/qcom/opensource/commonsys-intf/bluetooth/bt-commonsys-intf-board.mk
-$(call inherit-product, vendor/qcom/opensource/commonsys-intf/bluetooth/bt-system-opensource-product.mk)
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/component-overrides.xml:$(TARGET_COPY_OUT_VENDOR)/etc/sysconfig/component-overrides.xml
 
 # Camera
 PRODUCT_PACKAGES += \
