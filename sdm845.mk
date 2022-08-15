@@ -8,7 +8,6 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-include device/cygnus/sepolicy/qcom/sepolicy.mk
 include vendor/qcom/opensource/commonsys-intf/bluetooth/bt-commonsys-intf-board.mk
 $(call inherit-product, vendor/qcom/opensource/commonsys-intf/bluetooth/bt-system-opensource-product.mk)
 $(call inherit-product, vendor/qcom/opensource/commonsys/display/config/display-product-commonsys.mk)
